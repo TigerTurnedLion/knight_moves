@@ -9,8 +9,8 @@ nor making their king vulnerable to capture.)
 
 ## algo:
 1. create square data / obj that reps row and col with link to piece
-Step 2. place squares into map with keys = col + row
-Step 3. create knight object that calculates knight moves
-Step 4. place knight on a square.
-Step 5. check if map contains squares for possible moves.  If so, increment count per each square
-Step 6. return count of squares that exist for moves.
+2. place squares into map with keys = col + row
+3. create knight object that calculates knight moves
+4. place knight on a square.
+5. check if map contains squares for possible moves.  If so, increment count per each square
+6. return count of squares that exist for moves.
